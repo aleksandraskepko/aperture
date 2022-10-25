@@ -27,14 +27,14 @@ header nav li a {
     color: #FFFFFF;
     text-decoration: none;
 }
-header nav li:first-of-type {
+header nav li:first-of-type *{
     font-size: 13px;
     margin-right: 56px;
 }
 header nav li:nth-child(4) {
     margin-left: 31px;
 }
-header nav li:last-of-type {
+header nav li:last-of-type *{
     color: #000000;
     margin-left: 31px;
     background: #FFFFFF;
@@ -69,7 +69,4 @@ h1{
 .paragraph{
     font: 14px/20px  'Poppins', sans-serif;
     color: #C0C0C0;
-}
-qwq {
-    margin-right: 30;
 }
