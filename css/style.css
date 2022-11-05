@@ -51,6 +51,42 @@ header nav li:last-of-type *{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    padding-bottom: 71px;
+    box-sizing: border-box;
+    position: relative;
+}
+.fixed_location {
+    position: absolute;
+    right: 40px;
+   bottom: 40px;
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+.fixed_location li {
+    font: 12px/12px'Poppins', sans-serif;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.fixed_location li:before {
+    content: "";
+    display: inline-block;
+    background-image: url("../images/icon_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+.fixed_location li:nth-child(2):before {
+    background-image: url("../images/icon_2.svg");
+}
+.fixed_location li:nth-child(3):before {
+     background-image: url("../images/icon_3.svg");
+    width: 32px;
+
+}
+.fixed_location li:nth-child(4):before {
+    background-image: url("../images/icon_4.svg");
+    width: 10px;
 }
 .box{
     max-width: 580px;
