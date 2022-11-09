@@ -205,6 +205,10 @@ h1{
     padding: 113px 0 108px;
     text-align: center;
 }
+.sub_container_4{
+    max-width: 571px;
+    margin: auto;
+}
 .contact h3 {
     font: 40px/42px 'Poppins', sans-serif;
     color: #FFFFFF;
