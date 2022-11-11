@@ -59,7 +59,7 @@ header nav li:last-of-type *{
 .fixed_location {
     position: absolute;
     right: 40px;
-   bottom: 40px;
+    bottom: 40px;
     list-style: none;
     align-items: center;
     display: flex;
@@ -82,7 +82,7 @@ header nav li:last-of-type *{
 }
 .fixed_location li:nth-child(3):before {
      background-image: url("../images/icon_3.svg");
-    width: 32px;
+     width: 32px;
 }
 .fixed_location li:nth-child(4):before {
     background-image: url("../images/icon_4.svg");
@@ -173,9 +173,15 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
-.companies img {
+.companies a {
     max-width: 128px;
+    display: inline-block;
+}
+.owl-stage{
+    display: flex;
+    align-items: center;
 }
 .himalayas {
     background-image: url("../images/himalayas.jpg");
