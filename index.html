@@ -11,36 +11,76 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://resources/demos/style.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-<header>
+<header class="cd-header">
   <div class="container d_flex">
-    <a href="#">
-      <img src="images/logo.svg" alt="logo">
-    </a>
-    <nav>
-      <ul class="navbar">
-        <li>
-          <a href="#">Business areas</a>
-        </li>
-        <li>
-          <a href="#">Featured images</a>
-        </li>
-        <li>
-          <a href="#">Gear cage</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-        <li>
-          <a href="#">Get template</a>
-        </li>
-      </ul>
-    </nav>
+  <a href="#0">
+    <img src="images/logo.svg" alt="logo">
+  </a>
+  <a href="#0" class="cd-3d-nav-trigger">
+    <span></span>
+  </a>
+  <nav class="cd-3d-nav-container">
+    <ul class="cd-3d-nav">
+      <li class="cd-selected">
+        <a href="#">Business areas</a>
+      </li>
+      <li>
+        <a href="#0">Featured images</a>
+      </li>
+      <li>
+        <a href="#0">Gear cage</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+      <li class="link">
+        <a href="#">Get template</a>
+      </li>
+    </ul> <!-- .cd-3d-nav -->
+
+    <span class="cd-marker color-1"></span>
+  </nav>
   </div>
-</header>
+</header> <!-- .cd-header -->
+
+
+  <span class="cd-marker color-1"></span>
+</nav>
+
+
+
+<!--<header>-->
+<!--  <div class="container d_flex">-->
+<!--    <a href="#">-->
+<!--      <img src="images/logo.svg" alt="logo">-->
+<!--    </a>-->
+<!--    <nav>-->
+<!--      <ul class="navbar">-->
+<!--        <li>-->
+<!--          <a href="#">Business areas</a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <a href="#">Featured images</a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <a href="#">Gear cage</a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <a href="#">Contact</a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <a href="#">Get template</a>-->
+<!--        </li>-->
+<!--      </ul>-->
+<!--    </nav>-->
+<!--  </div>-->
+<!--</header>-->
   <main>
     <section class="picture">
       <div class="box">
@@ -57,6 +97,46 @@
         <li>Iceland</li>
       </ul>
     </section>
+    <section class="what_we_do">
+      <div class="container">
+        <h3>What we do.</h3>
+        <h4>The areas that we're specialized in.</h4>
+        <div class="d_flex flex_wrap">
+          <article>
+            <div class="description">
+              <h4>Product Photography</h4>
+              <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+              <a href="#" class="button">Read more</a>
+            </div>
+            <img src="images/product_photo.jpg" alt="img1">
+          </article>
+          <article>
+            <div class="description">
+              <h4>Architecture Photography</h4>
+              <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.</p>
+              <a href="#" class="button">Read more</a>
+            </div>
+            <img src="images/architecture_photo.jpg" alt="img2">
+          </article>
+          <article>
+            <div class="description">
+              <h4>Drone Photography</h4>
+              <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+              <a href="#" class="button">Read more</a>
+            </div>
+            <img src="images/drone_photo.jpg" alt="img3">
+          </article>
+          <article>
+            <div class="description">
+              <h4>Wildlife Photography</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
+              <a href="#" class="button">Read more</a>
+            </div>
+            <img src="images/wildlife_photo.jpg" alt="img4">
+          </article>
+        </div>
+      </div>
+    </section>
     <section class="sunset">
       <ul class="fixed_location">
         <li>1''</li>
@@ -67,6 +147,25 @@
       <div class="sub_container">
         <h4>Sunset at Mount Fuji</h4>
         <p>Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.</p>
+      </div>
+    </section>
+    <section class="tools">
+      <div class="container">
+        <div class="item">
+          <h4>The Gear cage</h4>
+          <h3>The tools that we use.</h3>
+          <p>The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed film". While we don't shoot (a lot) of film these days — these are the tools that we actually use everyday to capture the amazing things around us.</p>
+          <a href="#" class="button">Check it out</a>
+          <ul class="fixed_location">
+            <li>0,8''</li>
+            <li>f/5,6</li>
+            <li>100</li>
+            <li>Sweden</li>
+          </ul>
+        </div>
+      </div>
+      <div class="position_bg">
+
       </div>
     </section>
     <section class="leafs">
@@ -87,19 +186,28 @@
       <h4>Trusted by your favourite companies</h4>
       <div class="companies owl-carousel">
         <a href="#">
-          <img src="images/hill_hayes.svg">
+          <img src="images/hill_hayes.svg" alt="1">
         </a>
         <a href="#">
-          <img src="images/riksgrandsen.svg">
+          <img src="images/riksgrandsen.svg" alt="2">
         </a>
         <a href="#">
-          <img src="images/studio.svg">
+          <img src="images/studio.svg" alt="3">
         </a>
         <a href="#">
-          <img src="images/chillindustries.svg">
+          <img src="images/chillindustries.svg" alt="4">
         </a>
         <a href="#">
-          <img src="images/stockholm.svg">
+          <img src="images/stockholm.svg" alt="5">
+        </a>
+        <a href="#">
+        <img src="images/studio.svg" alt="3">
+        </a>
+        <a href="#">
+          <img src="images/chillindustries.svg" alt="4">
+        </a>
+        <a href="#">
+          <img src="images/stockholm.svg" alt="5">
         </a>
       </div>
       </div>
@@ -120,15 +228,75 @@
       <div class="sub_container_4">
       <h3>Need help with photography or videography?</h3>
       <h4>We're here for you!</h4>
-      <a href="#">Get in touch</a>
+      <a href="#"  class="button">Get in touch</a>
       </div>
     </section>
+    <section class="faq">
+      <div class="container">
+        <div class="text">
+        <h3>Frequently asked <br>
+          questions</h3>
+        <p>Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.</p></div>
+        <div class="accordion" id="accordion">
+            <h3>Section 1</h3>
+            <div>
+              <p>
+                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+              </p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+              <p>
+                Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                suscipit faucibus urna.
+              </p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+              <p>
+                Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+              </p>
+              <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+              </ul>
+            </div>
+            <h3>Section 4</h3>
+            <div>
+              <p>
+                Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                mauris vel est.
+              </p>
+              <p>
+                Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
+            </div>
+          </div>
+      </div>
+    </section>
+
   </main>
   <footer>
 
   </footer>
+<script src="https://kit.fontawesome.com/c090ec296e.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
 <script src="js/scripts.js"></script>
 </body>
 </html>
