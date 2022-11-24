@@ -1,3 +1,29 @@
+@media only screen and (min-width: 1024px) {
+    .cd-3d-nav .cd-selected span {
+        font-size: 13px;
+        margin-right: 56px;
+    }
+    .cd-3d-nav .cd-selected span a{
+        font-size: unset;
+        margin-left: unset;
+    }
+    .cd-3d-nav .images span a{
+        margin-left: unset;
+    }
+    .cd-3d-nav .link span{
+        color: #000000;
+        margin-left: 31px;
+        background: #FFFFFF;
+        border-radius: 14px;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        padding:9px 20px 13px;
+    }
+    .cd-3d-nav .link span a{
+        color: unset;
+        margin-left: unset;
+    }
+}
 @media screen and (max-width: 768px) {
     header img {
         margin-left: 30px;

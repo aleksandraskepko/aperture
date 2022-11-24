@@ -460,22 +460,7 @@ header .cd-3d-nav  li a {
     text-decoration: none;
     margin-left: 31px;
 }
-.cd-selected li a:first-of-type {
-    font-size: 13px;
-    margin-right: 56px;
-}
-.cd-3d-nav li:nth-of-type(2) {
-    margin-left: 0;
-}
-.cd-3d-nav li:last-of-type {
-    color: #000000;
-    margin-left: 31px;
-    background: #FFFFFF;
-    border-radius: 14px;
-    font-size: 16px;
-    letter-spacing: 0.4px;
-    padding:9px 20px 13px;
-}
+
 @media only screen and (min-width: 768px) {
     .cd-header.nav-is-visible {
         -webkit-transform: translateY(170px);
