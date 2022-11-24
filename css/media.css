@@ -37,7 +37,6 @@
         font-size: 0;
     }
     header .cd-3d-nav  li:first-of-type {
-
         margin-right: 0;
     }
     header .cd-3d-nav li:last-of-type {
@@ -45,6 +44,13 @@
         background: unset;
         padding: 0;
         border-radius: unset;
+    }
+    .faq .text h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .faq .text p {
+        font-size: 14px;
     }
     .picture {
         height: 93vh;
@@ -75,7 +81,6 @@
     .sub_container p {
         font: 18px/22px 'Poppins', sans-serif;
     }
-
     .leafs {
         min-height: 800px;
         justify-content: center;

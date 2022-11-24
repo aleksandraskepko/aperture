@@ -357,8 +357,9 @@ h1{
 }
 .faq .text {
     max-width: 500px;
-    padding-right: 50px;
+    padding-right: 25px;
     box-sizing: border-box;
+    padding-left: 20px;
 }
 .faq .accordion {
     max-width: 700px;
