@@ -644,13 +644,12 @@
         top: 25px;
     }
     .description .button {
-        font: 13px/15px  'Poppins', sans-serif;
+        font: 12px/14px  'Poppins', sans-serif;
     }
    .description .button:before {
-       font: 13px/15px  'Poppins', sans-serif;
-       padding: 3px 5px 4px 3px;
-       height: 20px;
-       width: 20px;
+       padding: 2px 4px 3px 2px;
+       height: 15px;
+       width: 15px;
    }
 }
 
