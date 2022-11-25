@@ -186,7 +186,7 @@ h1{
 }
 .tools .position_bg {
     width: 50%;
-    min-height: 540px;
+    height: 100%;
     right: 0;
     top: 0;
     background-image: url("../images/image_bg.jpg");

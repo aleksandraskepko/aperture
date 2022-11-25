@@ -45,12 +45,34 @@
         padding: 0;
         border-radius: unset;
     }
-    .faq .text h3 {
-        font-size: 25px;
-        line-height: 35px;
+    .tools .container {
+        justify-content: center;
+    }
+    .tools .item {
+        text-align: center;
+    }
+    .tools .position_bg {
+        position: relative;
+        height: 500px;
+        width: 100%;
+}
+    .faq .container {
+        display: block;
+    }
+    .faq .text {
+        margin: auto;
     }
     .faq .text p {
-        font-size: 14px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .faq .text h3 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .faq .accordion {
+       margin: auto;
     }
     .picture {
         height: 93vh;
@@ -110,6 +132,13 @@
     }
     .sub_container_3 p {
         font: 18px/22px 'Poppins', sans-serif;
+    }
+    .what_we_do {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .what_we_do .d_flex {
+        justify-content: center;
     }
     .cd-3d-nav-trigger {
         display: inline-block;
@@ -423,6 +452,15 @@
         font: 14px/20px 'Poppins', sans-serif;
         color: #C0C0C0;
     }
+    .tools .position_bg {
+        height: 300px;
+    }
+    .tools .container {
+        min-height: 400px;
+    }
+    .tools .item {
+        max-width: 314px;
+    }
     .leafs {
         min-height: 600px;
         justify-content: right;
@@ -478,6 +516,18 @@
     }
     .contact h4 {
         font: 20px/26px 'Poppins', sans-serif;
+    }
+    .faq .accordion {
+        max-width: 380px;
+    }
+    .description h4 {
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 3px;
+    }
+    .description p {
+        font-size: 13px;
+        line-height: 15px;
     }
 }
 @media screen and (max-width: 360px) {
@@ -586,5 +636,21 @@
         font: 12px/16px 'Poppins', sans-serif;
         padding: 5px 10px 5px 4px;
     }
+    .faq .accordion {
+        max-width: 320px;
+    }
+    .what_we_do article .description {
+        bottom: unset;
+        top: 25px;
+    }
+    .description .button {
+        font: 13px/15px  'Poppins', sans-serif;
+    }
+   .description .button:before {
+       font: 13px/15px  'Poppins', sans-serif;
+       padding: 3px 5px 4px 3px;
+       height: 20px;
+       width: 20px;
+   }
 }
 
