@@ -309,6 +309,57 @@ header {
   }
 }
 
+.fixed_location {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  z-index: 2;
+}
+@media screen and (max-width: 428px) {
+  .fixed_location {
+    right: 25px;
+    bottom: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .fixed_location {
+    right: 20px;
+    bottom: 15px;
+  }
+}
+.fixed_location li {
+  font: 12px/12px "Poppins", sans-serif;
+  color: #FFFFFF;
+  margin-left: 16px;
+}
+@media screen and (max-width: 360px) {
+  .fixed_location li {
+    font: 9px/9px "Poppins", sans-serif;
+  }
+}
+.fixed_location li:before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/icon_1.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+.fixed_location li:nth-child(2):before {
+  background-image: url("../images/icon_2.svg");
+}
+.fixed_location li:nth-child(3):before {
+  background-image: url("../images/icon_3.svg");
+  width: 32px;
+}
+.fixed_location li:nth-child(4):before {
+  background-image: url("../images/icon_4.svg");
+  width: 10px;
+}
+
 .sub_container {
   max-width: 298px;
   margin-right: 62px;
@@ -664,6 +715,57 @@ header {
   .himalayas {
     min-height: 500px;
   }
+}
+
+.fixed_location {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  z-index: 2;
+}
+@media screen and (max-width: 428px) {
+  .fixed_location {
+    right: 25px;
+    bottom: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .fixed_location {
+    right: 20px;
+    bottom: 15px;
+  }
+}
+.fixed_location li {
+  font: 12px/12px "Poppins", sans-serif;
+  color: #FFFFFF;
+  margin-left: 16px;
+}
+@media screen and (max-width: 360px) {
+  .fixed_location li {
+    font: 9px/9px "Poppins", sans-serif;
+  }
+}
+.fixed_location li:before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/icon_1.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+.fixed_location li:nth-child(2):before {
+  background-image: url("../images/icon_2.svg");
+}
+.fixed_location li:nth-child(3):before {
+  background-image: url("../images/icon_3.svg");
+  width: 32px;
+}
+.fixed_location li:nth-child(4):before {
+  background-image: url("../images/icon_4.svg");
+  width: 10px;
 }
 
 .sub_container_3 {
